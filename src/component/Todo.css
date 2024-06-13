@@ -1,0 +1,44 @@
+
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width:450px;
+    margin-left: -120px;
+  }
+  
+  .list {
+    flex-grow: 1;
+    padding: 5px;
+    font-size: 6px;
+    
+  }
+  
+  .button-complete,
+  .button-edit,
+  .button-delete {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 8px;
+   
+  }
+  
+  @media (max-width: 768px) {
+    /* Adjust styling for screens with a maximum width of 768px */
+    .list {
+      font-size: 7px;
+    
+    }
+    
+    .button-complete,
+    .button-edit,
+    .button-delete {
+      font-size: 7px;
+    }
+  }
+  
